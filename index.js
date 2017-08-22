@@ -6,8 +6,7 @@ class TextToPicture {
     text,
     source = {
       width: 256,
-      height: 256,
-      background: 0xEEEEEEFF
+      height: 256
     },
     size = 64,
     color = 'black',
@@ -15,6 +14,10 @@ class TextToPicture {
     ext = 'png',
     quality = 60
   }) {
+    if (!text) {
+      throw new Error('text is required')
+    }
+
     let image
 
     if (typeof source === 'string') {
