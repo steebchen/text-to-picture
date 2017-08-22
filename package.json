@@ -1,0 +1,22 @@
+{
+  "name": "text-to-picture",
+  "version": "1.0.0",
+  "description": "Simply generate a centered image from text.",
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steebchen/text-to-picture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/steebchen/text-to-picture/issues"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-ultra": "^0.4.5",
+    "jimp": "https://github.com/steebchen/jimp",
+    "smart-promisify": "^1.0.2"
+  }
+}
